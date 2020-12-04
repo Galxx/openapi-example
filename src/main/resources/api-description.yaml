@@ -25,6 +25,7 @@ components:
         id:
           type: string
           format: uuid
-        name:
-          required: true
-          type: string
+        date:
+          type: Date
+        amount:
+          type: int
